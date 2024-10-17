@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background-color: rgb(0, 208, 255);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+h1, h2, h3 {
+    color: black;
+    margin: 10px 0;
+}
+p {
+    color: black;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+nav ul li {
+    margin: 5px 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid wheat;
+}
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+form {
+    margin: 20px 0;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px ;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+form input[type="text"], form textarea {
+    width: 50%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: gray;
+}
+.Iklan {
+    display: inline-block;
+    max-width: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    margin: 20px auto;
+    text-align: center;
+    background-color: white;
+}
+.Iklan img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.Iklan h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.Iklan p {
+    font-size: 14px;
+    color: gray;
+}
+footer {
+    background-color: rgb(0, 208, 255);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    color: black;
+    margin: 0 10px;
+    font-size: bold;
+}
