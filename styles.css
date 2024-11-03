@@ -40,7 +40,7 @@ label {
 input[type="text"], textarea {
     width: 100%;
     padding: 10px;
-    margin: 10px ;
+    margin: 10px;
     border: 1px solid gray;
     border-radius: 4px;
 }
@@ -64,37 +64,48 @@ button {
 button:hover {
     background-color: gray;
 }
+
+.iklan-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px 0;
+}
+
 .Iklan {
-    display: inline-block;
-    max-width: 100%;
+    width: 30%;
     border: 1px solid white;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px black;
-    margin: 20px auto;
     text-align: center;
     background-color: white;
 }
+
 .Iklan img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
 }
+
 .Iklan h3 {
     font-size: 18px;
     margin-top: 10px;
 }
+
 .Iklan p {
     font-size: 14px;
     color: gray;
 }
+
 footer {
     background-color: rgb(0, 208, 255);
     color: white;
     padding: 20px;
     text-align: center;
 }
+
 footer a {
     color: black;
     margin: 0 10px;
