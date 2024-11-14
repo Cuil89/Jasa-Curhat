@@ -2,17 +2,36 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 header {
-    background-color: rgb(0, 208, 255);
-    color: white;
-    padding: 15px;
+    background-color: #e0f7fa;
+    color: #004d40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
     text-align: center;
 }
-h1, h2, h3 {
-    color: black;
-    margin: 10px 0;
+.logo span {
+    color: #004d40;
 }
-p {
+.menu{
+    display: flex;
+    gap: 25px;
+}
+.menu li {
+    list-style: none;
+}
+.menu li a {
+    text-decoration: none;
+    font-weight: 600;
     color: black;
+    transition: 0,25s;
+}
+.menu li a:hover {
+    color:#00cbd4;
+}
+
+p {
+    color: #004d40;
     line-height: 1.6;
     margin: 10px 0;
 }
@@ -26,43 +45,49 @@ table {
 }
 th, td {
     padding: 10px;
-    border: 1px solid wheat;
+    border: 1px solid #4db6ac; /* Hijau kebiruan muda */
 }
 tr:nth-child(even) {
-    background-color: whitesmoke;
+    background-color: #e0f7fa; /* Biru muda pucat */
 }
 form {
     margin: 20px 0;
+    max-width: 600px; /* Maksimal lebar form */
+    margin: auto; /* Center align form */
 }
+
 label {
     font-weight: bold;
+    display: block;
+    margin-top: 15px;
 }
+
 input[type="text"], textarea {
     width: 100%;
     padding: 10px;
-    margin: 10px;
-    border: 1px solid gray;
+    margin-top: 5px;
+    border: 1px solid #A8DADC;
     border-radius: 4px;
-}
-form input[type="text"], form textarea {
-    width: 50%;
-    max-width: 500px;
-    padding: 10px;
-    border: 1px solid gray;
-    border-radius: 5px;
     box-sizing: border-box;
-    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical; /* Hanya bisa di-resize secara vertikal */
 }
 
 button {
-    background-color: blue;
+    background-color: #457B9D;
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 15px;
+    border: none;
+    width: 100%; /* Lebar penuh di form */
 }
+
 button:hover {
-    background-color: gray;
+    background-color: #1D3557;
 }
 
 .iklan-container {
@@ -74,10 +99,10 @@ button:hover {
 
 .Iklan {
     width: 30%;
-    border: 1px solid white;
+    border: 1px solid #4db6ac; /* Hijau kebiruan muda */
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     background-color: white;
 }
@@ -92,22 +117,23 @@ button:hover {
 .Iklan h3 {
     font-size: 18px;
     margin-top: 10px;
+    color: #004d40; /* Hijau tua */
 }
 
 .Iklan p {
     font-size: 14px;
-    color: gray;
+    color: #00796b; /* Biru hijau gelap */
 }
 
 footer {
-    background-color: rgb(0, 208, 255);
-    color: white;
+    background-color: #e0f7fa; /* Biru muda pucat */
+    color: #004d40; /* Hijau tua */
     padding: 20px;
     text-align: center;
 }
 
 footer a {
-    color: black;
+    color: #00796b; /* Biru hijau gelap */
     margin: 0 10px;
     font-size: bold;
 }
